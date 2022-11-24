@@ -5,6 +5,7 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
     <string name="please_enter_email">Please enter email</string>
     <string name="please_enter_password">Please enter password</string>
     <string name="dont_have_an_account_register">Don’t have an account? <strong><font fgcolor='#468CFD'>Sign Up</font></strong></string>
@@ -47,5 +48,26 @@
     <string name="doctors_location">Doctors Location</string>
     <string name="choose_day">Choose Day</string>
 
+    <string name="choose_topic">Choose Topic</string>
+    <string name="lbl_choose">Choose</string>
 
+    <string name="please_wait">Please wait…</string>
+
+    <string name="please_press_back_again_to_exit">Please back again to Exit</string>
+
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string>
+
+    <string name="gender">Gender</string>
+
+    <string name="rb_lbl_male">Male</string>
+    <string name="rb_label_female">Female</string>
+    <string name="btn_lbl_update">Update</string>
+    <string name="title_complete_profile">Complete Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="read_storage_permission_denied">Oops! It seems like you just denied the permission needed. You can also allow it from settings.</string>
+    <string name="image_selection_failed">Something went wrong during image selection</string>
+
+    <string name="error_mobile_number">Please enter mobile number</string>
+
+    <string name="profile_update_success_message">Profile updated successfully</string>
 </resources>
