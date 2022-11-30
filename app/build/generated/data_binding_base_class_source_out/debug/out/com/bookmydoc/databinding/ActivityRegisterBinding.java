@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatCheckBox;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.databinding.DataBindingUtil;
@@ -23,7 +24,13 @@ public abstract class ActivityRegisterBinding extends ViewDataBinding {
   public final AppCompatButton btnSignup;
 
   @NonNull
+  public final AppCompatCheckBox cbTermsAndCondition;
+
+  @NonNull
   public final CountryCodePicker ccp1;
+
+  @NonNull
+  public final TextInputLayout ipConfirmPassword;
 
   @NonNull
   public final TextInputLayout ipEmail;
@@ -41,6 +48,9 @@ public abstract class ActivityRegisterBinding extends ViewDataBinding {
   public final AppCompatImageView ivProfile;
 
   @NonNull
+  public final TextInputEditText mEdtConfirmPassword;
+
+  @NonNull
   public final TextInputEditText mEdtEmail;
 
   @NonNull
@@ -56,18 +66,23 @@ public abstract class ActivityRegisterBinding extends ViewDataBinding {
   public final AppCompatTextView txtLogin;
 
   protected ActivityRegisterBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      AppCompatButton btnSignup, CountryCodePicker ccp1, TextInputLayout ipEmail,
-      TextInputLayout ipFullName, TextInputLayout ipMobile, TextInputLayout ipPassword,
-      AppCompatImageView ivProfile, TextInputEditText mEdtEmail, TextInputEditText mEdtFullName,
-      TextInputEditText mEdtMobile, TextInputEditText mEdtPassword, AppCompatTextView txtLogin) {
+      AppCompatButton btnSignup, AppCompatCheckBox cbTermsAndCondition, CountryCodePicker ccp1,
+      TextInputLayout ipConfirmPassword, TextInputLayout ipEmail, TextInputLayout ipFullName,
+      TextInputLayout ipMobile, TextInputLayout ipPassword, AppCompatImageView ivProfile,
+      TextInputEditText mEdtConfirmPassword, TextInputEditText mEdtEmail,
+      TextInputEditText mEdtFullName, TextInputEditText mEdtMobile, TextInputEditText mEdtPassword,
+      AppCompatTextView txtLogin) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnSignup = btnSignup;
+    this.cbTermsAndCondition = cbTermsAndCondition;
     this.ccp1 = ccp1;
+    this.ipConfirmPassword = ipConfirmPassword;
     this.ipEmail = ipEmail;
     this.ipFullName = ipFullName;
     this.ipMobile = ipMobile;
     this.ipPassword = ipPassword;
     this.ivProfile = ivProfile;
+    this.mEdtConfirmPassword = mEdtConfirmPassword;
     this.mEdtEmail = mEdtEmail;
     this.mEdtFullName = mEdtFullName;
     this.mEdtMobile = mEdtMobile;

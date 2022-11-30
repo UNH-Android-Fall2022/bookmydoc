@@ -24,8 +24,11 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
         sViewsWithIds.put(R.id.mEdtMobile, 8);
         sViewsWithIds.put(R.id.ipPassword, 9);
         sViewsWithIds.put(R.id.mEdtPassword, 10);
-        sViewsWithIds.put(R.id.btnSignup, 11);
-        sViewsWithIds.put(R.id.txtLogin, 12);
+        sViewsWithIds.put(R.id.ipConfirmPassword, 11);
+        sViewsWithIds.put(R.id.mEdtConfirmPassword, 12);
+        sViewsWithIds.put(R.id.cb_terms_and_condition, 13);
+        sViewsWithIds.put(R.id.btnSignup, 14);
+        sViewsWithIds.put(R.id.txtLogin, 15);
     }
     // views
     @NonNull
@@ -36,22 +39,25 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityRegisterBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
     }
     private ActivityRegisterBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (androidx.appcompat.widget.AppCompatButton) bindings[11]
+            , (androidx.appcompat.widget.AppCompatButton) bindings[14]
+            , (androidx.appcompat.widget.AppCompatCheckBox) bindings[13]
             , (com.hbb20.CountryCodePicker) bindings[6]
+            , (com.google.android.material.textfield.TextInputLayout) bindings[11]
             , (com.google.android.material.textfield.TextInputLayout) bindings[4]
             , (com.google.android.material.textfield.TextInputLayout) bindings[2]
             , (com.google.android.material.textfield.TextInputLayout) bindings[7]
             , (com.google.android.material.textfield.TextInputLayout) bindings[9]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[1]
+            , (com.google.android.material.textfield.TextInputEditText) bindings[12]
             , (com.google.android.material.textfield.TextInputEditText) bindings[5]
             , (com.google.android.material.textfield.TextInputEditText) bindings[3]
             , (com.google.android.material.textfield.TextInputEditText) bindings[8]
             , (com.google.android.material.textfield.TextInputEditText) bindings[10]
-            , (androidx.appcompat.widget.AppCompatTextView) bindings[12]
+            , (androidx.appcompat.widget.AppCompatTextView) bindings[15]
             );
         this.mboundView0 = (androidx.core.widget.NestedScrollView) bindings[0];
         this.mboundView0.setTag(null);

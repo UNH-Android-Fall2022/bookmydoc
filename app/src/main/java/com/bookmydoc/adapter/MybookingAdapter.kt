@@ -33,7 +33,7 @@ class MybookingAdapter(val mCallBack: ListSelector, val mcount: Int) :
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onBindViewHolder(holder: ViewHolder, i: Int) {
 
-        holder.mBinding.txtName.text = itemList!!.get(i).name
+        holder.mBinding.txtName.text = itemList!!.get(i).doctor_name
         holder.mBinding.txtTopic.text = itemList!!.get(i).topic
         holder.mBinding.txtTime.text = itemList!!.get(i).date+" "+itemList!!.get(i).time
         holder.itemView.setOnClickListener {

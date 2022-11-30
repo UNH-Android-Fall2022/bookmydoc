@@ -1,5 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res"/><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\build\generated\res\rs\debug"/><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res"><file name="bg_edittextbox" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\bg_edittextbox.xml" qualifiers="" type="drawable"/><file name="ic_back" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_back.xml" qualifiers="" type="drawable"/><file name="ic_brain" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_brain.xml" qualifiers="" type="drawable"/><file name="ic_clock" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_clock.xml" qualifiers="" type="drawable"/><file name="ic_docotor_list" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_docotor_list.xml" qualifiers="" type="drawable"/><file name="ic_experience" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_experience.xml" qualifiers="" type="drawable"/><file name="ic_eye" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_eye.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_login_illu" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_login_illu.xml" qualifiers="" type="drawable"/><file name="ic_menu" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_menu.xml" qualifiers="" type="drawable"/><file name="ic_obline_badge" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_obline_badge.xml" qualifiers="" type="drawable"/><file name="ic_patient" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_patient.xml" qualifiers="" type="drawable"/><file name="ic_rating" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_rating.xml" qualifiers="" type="drawable"/><file name="ic_search" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_search.xml" qualifiers="" type="drawable"/><file name="ic_slider_bg" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_slider_bg.xml" qualifiers="" type="drawable"/><file name="ic_star" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_star.xml" qualifiers="" type="drawable"/><file name="ic_tick" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_tick.xml" qualifiers="" type="drawable"/><file name="ic_tooth" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_tooth.xml" qualifiers="" type="drawable"/><file name="ic_welcome_illue" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\ic_welcome_illue.xml" qualifiers="" type="drawable"/><file name="rounded_blue" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable\rounded_blue.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="nunito" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\font\nunito.xml" qualifiers="" type="font"/><file name="nunito_bold" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\font\nunito_bold.xml" qualifiers="" type="font"/><file name="nunito_semibold" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\font\nunito_semibold.xml" qualifiers="" type="font"/><file name="activity_login" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_register" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\layout\activity_register.xml" qualifiers="" type="layout"/><file name="activity_splash" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\layout\activity_splash.xml" qualifiers="" type="layout"/><file name="activity_welcome" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\layout\activity_welcome.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color><color name="theam">#4B8FFD</color></file><file path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\values\font_certs.xml" qualifiers=""><array name="com_google_android_gms_fonts_certs">
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res"/><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\build\generated\res\rs\debug"/><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\build\generated\res\resValues\debug"/><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\build\generated\res\google-services\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res"><file name="audiologist" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\audiologist.png" qualifiers="" type="drawable"/><file name="bg_edittextbox" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\bg_edittextbox.xml" qualifiers="" type="drawable"/><file name="bg_white" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\bg_white.xml" qualifiers="" type="drawable"/><file name="cardiologist" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\cardiologist.png" qualifiers="" type="drawable"/><file name="category_bg" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\category_bg.png" qualifiers="" type="drawable"/><file name="dashboard_bg" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\dashboard_bg.xml" qualifiers="" type="drawable"/><file name="doctor_bg" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\doctor_bg.xml" qualifiers="" type="drawable"/><file name="doctor__detail_bg" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\doctor__detail_bg.xml" qualifiers="" type="drawable"/><file name="dumy_profile" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\dumy_profile.png" qualifiers="" type="drawable"/><file name="ic_appointment" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_appointment.xml" qualifiers="" type="drawable"/><file name="ic_back" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_back.xml" qualifiers="" type="drawable"/><file name="ic_brain" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_brain.xml" qualifiers="" type="drawable"/><file name="ic_camera" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_camera.xml" qualifiers="" type="drawable"/><file name="ic_circle_white_8dp" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_circle_white_8dp.xml" qualifiers="" type="drawable"/><file name="ic_clock" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_clock.xml" qualifiers="" type="drawable"/><file name="ic_docotor_illu" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_docotor_illu.xml" qualifiers="" type="drawable"/><file name="ic_docotor_list" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_docotor_list.xml" qualifiers="" type="drawable"/><file name="ic_edit_user" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_edit_user.xml" qualifiers="" type="drawable"/><file name="ic_experience" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_experience.xml" qualifiers="" type="drawable"/><file name="ic_eye" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_eye.xml" qualifiers="" type="drawable"/><file name="ic_female_docotor_illu" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_female_docotor_illu.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_login_illu" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_login_illu.xml" qualifiers="" type="drawable"/><file name="ic_logo" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_logo.xml" qualifiers="" type="drawable"/><file name="ic_log_out_outline" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_log_out_outline.xml" qualifiers="" type="drawable"/><file name="ic_menu" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_menu.xml" qualifiers="" type="drawable"/><file name="ic_next_arrow" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_next_arrow.xml" qualifiers="" type="drawable"/><file name="ic_obline_badge" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_obline_badge.xml" qualifiers="" type="drawable"/><file name="ic_outline_call" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_outline_call.xml" qualifiers="" type="drawable"/><file name="ic_patient" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_patient.xml" qualifiers="" type="drawable"/><file name="ic_rating" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_rating.xml" qualifiers="" type="drawable"/><file name="ic_search" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_search.xml" qualifiers="" type="drawable"/><file name="ic_slider_bg" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_slider_bg.xml" qualifiers="" type="drawable"/><file name="ic_star" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_star.xml" qualifiers="" type="drawable"/><file name="ic_tick" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_tick.xml" qualifiers="" type="drawable"/><file name="ic_tooth" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_tooth.xml" qualifiers="" type="drawable"/><file name="ic_user_placeholder" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_user_placeholder.png" qualifiers="" type="drawable"/><file name="ic_welcome_illue" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\ic_welcome_illue.xml" qualifiers="" type="drawable"/><file name="map" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\map.png" qualifiers="" type="drawable"/><file name="orthopedics" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\orthopedics.png" qualifiers="" type="drawable"/><file name="podiatrist" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\podiatrist.png" qualifiers="" type="drawable"/><file name="profile_bg" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\profile_bg.png" qualifiers="" type="drawable"/><file name="psychiatrist" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\psychiatrist.png" qualifiers="" type="drawable"/><file name="rounded_blue" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\rounded_blue.xml" qualifiers="" type="drawable"/><file name="rounded_blue_border" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\rounded_blue_border.xml" qualifiers="" type="drawable"/><file name="rounded_blue_date" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\rounded_blue_date.xml" qualifiers="" type="drawable"/><file name="rounded_gray_border" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\rounded_gray_border.xml" qualifiers="" type="drawable"/><file name="search_bg_shedow" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\search_bg_shedow.png" qualifiers="" type="drawable"/><file name="search_bg_shedow_small" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\search_bg_shedow_small.png" qualifiers="" type="drawable"/><file name="surgeon" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\surgeon.png" qualifiers="" type="drawable"/><file name="toolbar_bg" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\toolbar_bg.xml" qualifiers="" type="drawable"/><file name="urologist" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable\urologist.png" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="nunito" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\font\nunito.xml" qualifiers="" type="font"/><file name="nunito_bold" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\font\nunito_bold.xml" qualifiers="" type="font"/><file name="nunito_semibold" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\font\nunito_semibold.xml" qualifiers="" type="font"/><file name="activity_category" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_category.xml" qualifiers="" type="layout"/><file name="activity_dashboard" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_dashboard.xml" qualifiers="" type="layout"/><file name="activity_docotr_detail" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_docotr_detail.xml" qualifiers="" type="layout"/><file name="activity_docotr_login" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_docotr_login.xml" qualifiers="" type="layout"/><file name="activity_doctor_dashboard" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_doctor_dashboard.xml" qualifiers="" type="layout"/><file name="activity_doctor_list" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_doctor_list.xml" qualifiers="" type="layout"/><file name="activity_login" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_my_booking" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_my_booking.xml" qualifiers="" type="layout"/><file name="activity_register" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_register.xml" qualifiers="" type="layout"/><file name="activity_settings" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_settings.xml" qualifiers="" type="layout"/><file name="activity_splash" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_splash.xml" qualifiers="" type="layout"/><file name="activity_success" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_success.xml" qualifiers="" type="layout"/><file name="activity_user_profile" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_user_profile.xml" qualifiers="" type="layout"/><file name="activity_welcome" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\activity_welcome.xml" qualifiers="" type="layout"/><file name="dialog_progress" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\dialog_progress.xml" qualifiers="" type="layout"/><file name="hc_item_calendar" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\hc_item_calendar.xml" qualifiers="" type="layout"/><file name="layout_spiner" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\layout_spiner.xml" qualifiers="" type="layout"/><file name="view_booking_time" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\view_booking_time.xml" qualifiers="" type="layout"/><file name="view_category" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\view_category.xml" qualifiers="" type="layout"/><file name="view_doctor" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\view_doctor.xml" qualifiers="" type="layout"/><file name="view_my_booking" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\layout\view_my_booking.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="Pinview">
+        <attr format="reference" name="pinBackground"/>
+        <attr format="integer" name="pinLength"/>
+        <attr format="dimension" name="pinWidth"/>
+        <attr format="dimension" name="pinHeight"/>
+        <attr format="dimension" name="splitWidth"/>
+        <attr format="boolean" name="cursorVisible"/>
+        <attr format="boolean" name="password"/>
+        <attr format="boolean" name="forceKeyboard"/>
+        <attr format="string" name="hint"/>
+        <attr name="inputType"/>
+        <attr format="dimension" name="textSize"/>
+    </declare-styleable><attr format="enum" name="inputType">
+        <enum name="text" value="0"/>
+        <enum name="number" value="1"/>
+    </attr><declare-styleable name="MaterialSearchBar">
+        //Base
+        <attr format="boolean" name="mt_speechMode"/>
+        <attr format="integer" name="mt_maxSuggestionsCount"/>
+        <attr format="boolean" name="mt_navIconEnabled"/>
+        <attr format="boolean" name="mt_roundedSearchBarEnabled"/>
+        //(API 21+ , Will Revert To Default Shape On Lower
+        <attr format="boolean" name="mt_menuDividerEnabled"/>
+        <attr format="color" name="mt_dividerColor"/>
+        <attr format="color" name="mt_searchBarColor"/>
+
+        //Icons
+        <attr format="reference" name="mt_menuIconDrawable"/>
+        <attr format="reference" name="mt_searchIconDrawable"/>
+        <attr format="reference" name="mt_speechIconDrawable"/>
+        <attr format="reference" name="mt_backIconDrawable"/>
+        <attr format="reference" name="mt_clearIconDrawable"/>
+        <attr format="color" name="mt_navIconTint"/>
+        <attr format="color" name="mt_menuIconTint"/>
+        <attr format="color" name="mt_searchIconTint"/>
+        <attr format="color" name="mt_backIconTint"/>
+        <attr format="color" name="mt_clearIconTint"/>
+        <attr format="boolean" name="mt_navIconUseTint"/>
+        <attr format="boolean" name="mt_menuIconUseTint"/>
+        <attr format="boolean" name="mt_searchIconUseTint"/>
+        <attr format="boolean" name="mt_backIconUseTint"/>
+        <attr format="boolean" name="mt_clearIconUseTint"/>
+        <attr format="boolean" name="mt_borderlessRippleEnabled"/>
+
+        //Text
+        <attr format="string" name="mt_hint"/>
+        <attr format="string" name="mt_placeholder"/>
+        <attr format="color" name="mt_textColor"/>
+        <attr format="color" name="mt_hintColor"/>
+        <attr format="color" name="mt_placeholderColor"/>
+        <attr format="color" name="mt_textCursorTint"/>
+        <attr format="reference" name="mt_leftTextSelectorDrawable"/>
+        <attr format="reference" name="mt_middleTextSelectorDrawable"/>
+        <attr format="reference" name="mt_rightTextSelectorDrawable"/>
+        <attr format="color" name="mt_leftTextSelectorTint"/>
+        <attr format="color" name="mt_middleTextSelectorTint"/>
+        <attr format="color" name="mt_rightTextSelectorTint"/>
+        <attr format="boolean" name="mt_handlesTintEnabled"/>
+        <attr format="color" name="mt_highlightedTextColor"/>
+    </declare-styleable><declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable><declare-styleable name="ExpansionHeader">
+        <attr format="reference" name="expansion_layout"/>
+        <attr format="boolean" name="expansion_toggleOnClick"/>
+        <attr format="reference" name="expansion_headerIndicator"/>
+        <attr format="integer" name="expansion_headerIndicatorRotationExpanded"/>
+        <attr format="integer" name="expansion_headerIndicatorRotationCollapsed"/>
+    </declare-styleable><declare-styleable name="ExpansionLayout">
+        <attr format="boolean" name="expansion_expanded"/>
+    </declare-styleable><attr format="boolean" name="expansion_openOnlyOne"/><declare-styleable name="ExpansionsViewGroupFrameLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="ExpansionsViewGroupLinearLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="ExpansionsViewGroupRelativeLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="ExpansionsViewGroupConstraintLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="CodeScannerView">
+        <attr format="color" name="maskColor"/>
+        <attr format="color" name="frameColor"/>
+        <attr format="color" name="autoFocusButtonColor"/>
+        <attr format="color" name="flashButtonColor"/>
+        <attr format="boolean" name="autoFocusButtonVisible"/>
+        <attr format="boolean" name="flashButtonVisible"/>
+        <attr format="dimension" name="frameThickness"/>
+        <attr format="dimension" name="frameCornersSize"/>
+        <attr format="dimension" name="frameCornersRadius"/>
+        <attr format="float" name="frameAspectRatioWidth"/>
+        <attr format="float" name="frameAspectRatioHeight"/>
+        <attr format="float" name="frameSize"/>
+    </declare-styleable><declare-styleable name="HorizontalCalendarView">
+        
+        <attr format="color" name="textColorNormal"/>
+        
+        <attr format="color" name="colorTopText"/>
+        
+        <attr format="color" name="colorMiddleText"/>
+        
+        <attr format="color" name="colorBottomText"/>
+
+        
+        <attr format="color" name="textColorSelected"/>
+        
+        <attr format="color" name="colorTopTextSelected"/>
+        
+        <attr format="color" name="colorMiddleTextSelected"/>
+        
+        <attr format="color" name="colorBottomTextSelected"/>
+        
+        <attr format="reference" name="selectedDateBackground"/>
+
+        
+        <attr format="color" name="selectorColor"/>
+
+        
+        <attr format="dimension" name="sizeTopText"/>
+        
+        <attr format="dimension" name="sizeMiddleText"/>
+        
+        <attr format="dimension" name="sizeBottomText"/>
+        <attr format="color" name="colorAccent"/>
+    </declare-styleable></file><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color><color name="theam">#4B8FFD</color><color name="txt_color">#6E7DB1</color><color name="colorSnackBarError">#F72400</color><color name="colorSnackBarSuccess">#8BC34A</color></file><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\values\font_certs.xml" qualifiers=""><array name="com_google_android_gms_fonts_certs">
         <item>@array/com_google_android_gms_fonts_certs_dev</item>
         <item>@array/com_google_android_gms_fonts_certs_prod</item>
     </array><string-array name="com_google_android_gms_fonts_certs_dev">
@@ -10,11 +132,11 @@
         <item>
             MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
         </item>
-    </string-array></file><file path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\values\preloaded_fonts.xml" qualifiers=""><array name="preloaded_fonts" translatable="false">
+    </string-array></file><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\values\preloaded_fonts.xml" qualifiers=""><array name="preloaded_fonts" translatable="false">
         <item>@font/nunito</item>
         <item>@font/nunito_bold</item>
         <item>@font/nunito_semibold</item>
-    </array></file><file path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BookMyDoc</string><string name="login">Login</string><string name="forgot_password">Forgot Password?</string><string name="email">Email</string><string name="password">Password</string><string name="please_enter_email">Please enter email</string><string name="please_enter_password">Please enter password</string><string name="dont_have_an_account_register">Don’t have an account? <strong><font fgcolor="#468CFD">Sign Up</font></strong></string><string name="next">Next</string><string name="welcome">Welcome!</string><string name="welcome_str">Manage Your appointments and\ncreate new ones.</string><string name="name">Name</string><string name="please_enter_name">Please Enter your name</string><string name="mobile">Mobile</string><string name="please_enter_mobile">Please Enter your mobile number</string><string name="signup">Sign Up</string><string name="have_an_account_login">have an account? <strong><font fgcolor="#468CFD">Login</font></strong></string><string name="join_us_to_start_searching">Join us to start searching</string><string name="find_your_medical_solution">find your medical solution!</string></file><file path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.BookMyDoc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </array></file><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BookMyDoc</string><string name="login">Login</string><string name="forgot_password">Forgot Password?</string><string name="email">Email</string><string name="doctor_loginid">Doctor loginID</string><string name="password">Password</string><string name="confirm_password">Confirm Password</string><string name="please_enter_email">Please enter email</string><string name="please_enter_doctor_id">Please doctor loginID</string><string name="please_enter_password">Please enter password</string><string name="dont_have_an_account_register">Don’t have an account? <strong><font fgcolor="#468CFD">Sign Up</font></strong></string><string name="next">Next</string><string name="welcome">Welcome!</string><string name="welcome_str">Manage Your appointments and\ncreate new ones.</string><string name="dr_login"><u>Dr Login</u></string><string name="name">Name</string><string name="please_enter_name">Please Enter your name</string><string name="mobile">Mobile</string><string name="please_enter_mobile">Please Enter your mobile number</string><string name="signup">Sign Up</string><string name="have_an_account_login">have an account? <strong><font fgcolor="#468CFD">Login</font></strong></string><string name="join_us_to_start_searching">Join us to start searching</string><string name="find_your_medical_solution">find your medical solution!</string><string name="welcome_back">Welcome Back!</string><string name="john_doe">John Doe</string><string name="search_doctor_medicine">Search doctor, medicine…</string><string name="category">Category</string><string name="view_more">View more</string><string name="brain">Brain</string><string name="dental">Dental</string><string name="eye">Eye</string><string name="doctors_20">20 Doctors</string><string name="doctors_15">15 Doctors</string><string name="doctors_10">10 Doctors</string><string name="patient">Patient</string><string name="experience">Experience</string><string name="rating">Rating</string><string name="years_2">2 Years</string><string name="_10k">10K</string><string name="top_doctors">Top Doctors</string><string name="doctors_location">Doctors Location</string><string name="choose_day">Choose Day</string><string name="choose_topic">Choose Topic</string><string name="lbl_choose">Choose</string><string name="please_wait">Please wait…</string><string name="please_press_back_again_to_exit">Please back again to Exit</string><string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string><string name="gender">Gender</string><string name="rb_lbl_male">Male</string><string name="rb_label_female">Female</string><string name="btn_lbl_update">Update</string><string name="title_complete_profile">Complete Profile</string><string name="edit_profile">Edit Profile</string><string name="read_storage_permission_denied">Oops! It seems like you just denied the permission needed. You can also allow it from settings.</string><string name="image_selection_failed">Something went wrong during image selection</string><string name="error_mobile_number">Please enter mobile number</string><string name="profile_update_success_message">Profile updated successfully</string></file><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.BookMyDoc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -24,7 +146,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         
-        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">#2A7CFF</item>
         
     </style><style name="Theme.White" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
@@ -35,10 +157,22 @@
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
-        <item name="android:windowContentTransitions">true</item>
 
         
-        <item name="android:statusBarColor" ns1:targetApi="l">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        
+    </style><style name="Theme.Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/theam</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        
+        <item name="android:statusBarColor">#2A7CFF</item>
         
     </style><style name="error_appearance" parent="@android:style/TextAppearance">
         <item name="android:textColor">#F44336</item>
@@ -56,7 +190,7 @@
         <item name="android:textColorHint">#A5A5A5</item>
         <item name="android:textColor">#6E7DB1</item>
 
-    </style></file><file path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.BookMyDoc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style></file><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.BookMyDoc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -66,6 +200,125 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         
-        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
-    </style></file><file name="backup_rules" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\build\generated\res\rs\debug"/><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="F:\Android Projects\Project\TycheeInnovations-Projects\DoctorAppoitment\BookMyDoc\app\src\debug\res"/></dataSet><mergedItems/></merger>
+    </style></file><file name="backup_rules" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\build\generated\res\rs\debug"/><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\build\generated\res\resValues\debug"/><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\build\generated\res\google-services\debug"><file path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\build\generated\res\google-services\debug\values\values.xml" qualifiers=""><string name="default_web_client_id" translatable="false">1091107187580-s81smv6e694843977ld387197gfk2lc8.apps.googleusercontent.com</string><string name="gcm_defaultSenderId" translatable="false">1091107187580</string><string name="google_api_key" translatable="false">AIzaSyCI4Lfa3EbPUnT2E8vk_ooO2zZgU2xlXJQ</string><string name="google_app_id" translatable="false">1:1091107187580:android:d8afc6ad5b06ba8fd692f9</string><string name="google_crash_reporting_api_key" translatable="false">AIzaSyCI4Lfa3EbPUnT2E8vk_ooO2zZgU2xlXJQ</string><string name="google_storage_bucket" translatable="false">bookmydoc-5c640.appspot.com</string><string name="project_id" translatable="false">bookmydoc-5c640</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ExpansionsViewGroupFrameLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="ExpansionsViewGroupRelativeLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="MaterialSearchBar">
+        //Base
+        <attr format="boolean" name="mt_speechMode"/>
+        <attr format="integer" name="mt_maxSuggestionsCount"/>
+        <attr format="boolean" name="mt_navIconEnabled"/>
+        <attr format="boolean" name="mt_roundedSearchBarEnabled"/>
+        //(API 21+ , Will Revert To Default Shape On Lower
+        <attr format="boolean" name="mt_menuDividerEnabled"/>
+        <attr format="color" name="mt_dividerColor"/>
+        <attr format="color" name="mt_searchBarColor"/>
+
+        //Icons
+        <attr format="reference" name="mt_menuIconDrawable"/>
+        <attr format="reference" name="mt_searchIconDrawable"/>
+        <attr format="reference" name="mt_speechIconDrawable"/>
+        <attr format="reference" name="mt_backIconDrawable"/>
+        <attr format="reference" name="mt_clearIconDrawable"/>
+        <attr format="color" name="mt_navIconTint"/>
+        <attr format="color" name="mt_menuIconTint"/>
+        <attr format="color" name="mt_searchIconTint"/>
+        <attr format="color" name="mt_backIconTint"/>
+        <attr format="color" name="mt_clearIconTint"/>
+        <attr format="boolean" name="mt_navIconUseTint"/>
+        <attr format="boolean" name="mt_menuIconUseTint"/>
+        <attr format="boolean" name="mt_searchIconUseTint"/>
+        <attr format="boolean" name="mt_backIconUseTint"/>
+        <attr format="boolean" name="mt_clearIconUseTint"/>
+        <attr format="boolean" name="mt_borderlessRippleEnabled"/>
+
+        //Text
+        <attr format="string" name="mt_hint"/>
+        <attr format="string" name="mt_placeholder"/>
+        <attr format="color" name="mt_textColor"/>
+        <attr format="color" name="mt_hintColor"/>
+        <attr format="color" name="mt_placeholderColor"/>
+        <attr format="color" name="mt_textCursorTint"/>
+        <attr format="reference" name="mt_leftTextSelectorDrawable"/>
+        <attr format="reference" name="mt_middleTextSelectorDrawable"/>
+        <attr format="reference" name="mt_rightTextSelectorDrawable"/>
+        <attr format="color" name="mt_leftTextSelectorTint"/>
+        <attr format="color" name="mt_middleTextSelectorTint"/>
+        <attr format="color" name="mt_rightTextSelectorTint"/>
+        <attr format="boolean" name="mt_handlesTintEnabled"/>
+        <attr format="color" name="mt_highlightedTextColor"/>
+    </declare-styleable><declare-styleable name="ExpansionHeader">
+        <attr format="reference" name="expansion_layout"/>
+        <attr format="boolean" name="expansion_toggleOnClick"/>
+        <attr format="reference" name="expansion_headerIndicator"/>
+        <attr format="integer" name="expansion_headerIndicatorRotationExpanded"/>
+        <attr format="integer" name="expansion_headerIndicatorRotationCollapsed"/>
+    </declare-styleable><declare-styleable name="HorizontalCalendarView">
+        
+        <attr format="color" name="textColorNormal"/>
+        
+        <attr format="color" name="colorTopText"/>
+        
+        <attr format="color" name="colorMiddleText"/>
+        
+        <attr format="color" name="colorBottomText"/>
+
+        
+        <attr format="color" name="textColorSelected"/>
+        
+        <attr format="color" name="colorTopTextSelected"/>
+        
+        <attr format="color" name="colorMiddleTextSelected"/>
+        
+        <attr format="color" name="colorBottomTextSelected"/>
+        
+        <attr format="reference" name="selectedDateBackground"/>
+
+        
+        <attr format="color" name="selectorColor"/>
+
+        
+        <attr format="dimension" name="sizeTopText"/>
+        
+        <attr format="dimension" name="sizeMiddleText"/>
+        
+        <attr format="dimension" name="sizeBottomText"/>
+        <attr format="color" name="colorAccent"/>
+    </declare-styleable><declare-styleable name="ExpansionsViewGroupConstraintLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="CodeScannerView">
+        <attr format="color" name="maskColor"/>
+        <attr format="color" name="frameColor"/>
+        <attr format="color" name="autoFocusButtonColor"/>
+        <attr format="color" name="flashButtonColor"/>
+        <attr format="boolean" name="autoFocusButtonVisible"/>
+        <attr format="boolean" name="flashButtonVisible"/>
+        <attr format="dimension" name="frameThickness"/>
+        <attr format="dimension" name="frameCornersSize"/>
+        <attr format="dimension" name="frameCornersRadius"/>
+        <attr format="float" name="frameAspectRatioWidth"/>
+        <attr format="float" name="frameAspectRatioHeight"/>
+        <attr format="float" name="frameSize"/>
+    </declare-styleable><declare-styleable name="ExpansionsViewGroupLinearLayout">
+        <attr name="expansion_openOnlyOne"/>
+    </declare-styleable><declare-styleable name="ExpansionLayout">
+        <attr format="boolean" name="expansion_expanded"/>
+    </declare-styleable><declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable><declare-styleable name="Pinview">
+        <attr format="reference" name="pinBackground"/>
+        <attr format="integer" name="pinLength"/>
+        <attr format="dimension" name="pinWidth"/>
+        <attr format="dimension" name="pinHeight"/>
+        <attr format="dimension" name="splitWidth"/>
+        <attr format="boolean" name="cursorVisible"/>
+        <attr format="boolean" name="password"/>
+        <attr format="boolean" name="forceKeyboard"/>
+        <attr format="string" name="hint"/>
+        <attr name="inputType"/>
+        <attr format="dimension" name="textSize"/>
+    </declare-styleable></configuration></mergedItems></merger>

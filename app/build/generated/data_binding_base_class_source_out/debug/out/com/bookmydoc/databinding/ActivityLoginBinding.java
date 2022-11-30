@@ -37,6 +37,9 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   public final TextInputEditText mEdtPassword;
 
   @NonNull
+  public final AppCompatTextView txtDrLogin;
+
+  @NonNull
   public final AppCompatTextView txtForgot;
 
   @NonNull
@@ -45,7 +48,7 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   protected ActivityLoginBinding(Object _bindingComponent, View _root, int _localFieldCount,
       AppCompatButton btnLogin, TextInputLayout ipEmail, TextInputLayout ipPassword,
       AppCompatImageView ivProfile, TextInputEditText mEdtEmail, TextInputEditText mEdtPassword,
-      AppCompatTextView txtForgot, AppCompatTextView txtSignup) {
+      AppCompatTextView txtDrLogin, AppCompatTextView txtForgot, AppCompatTextView txtSignup) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnLogin = btnLogin;
     this.ipEmail = ipEmail;
@@ -53,6 +56,7 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
     this.ivProfile = ivProfile;
     this.mEdtEmail = mEdtEmail;
     this.mEdtPassword = mEdtPassword;
+    this.txtDrLogin = txtDrLogin;
     this.txtForgot = txtForgot;
     this.txtSignup = txtSignup;
   }
