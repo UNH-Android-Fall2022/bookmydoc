@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bookmydoc.app-mergeDebugResources-54:/values-si/values-si.xml",
+            "outputFile": "com.bookmydoc.app-mergeDebugResources-51:/values-si/values-si.xml",
             "map": [
                 {
                     "source": "C:\\Users\\home\\.gradle\\caches\\transforms-3\\9dff07586fd0d79abf4878af38b9b14b\\transformed\\core-1.8.0\\res\\values-si\\values-si.xml",

@@ -17,16 +17,12 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bookmydoc.R;
-import com.bookmydoc.horizontalcalendar.HorizontalCalendarView;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class ActivityDocotrDetailBinding extends ViewDataBinding {
   @NonNull
   public final AppCompatButton btnBook;
-
-  @NonNull
-  public final HorizontalCalendarView calendarView;
 
   @NonNull
   public final ImageButton imgBack;
@@ -53,6 +49,9 @@ public abstract class ActivityDocotrDetailBinding extends ViewDataBinding {
   public final AppCompatTextView txtCategory;
 
   @NonNull
+  public final AppCompatTextView txtDate;
+
+  @NonNull
   public final AppCompatTextView txtDrName;
 
   @NonNull
@@ -65,14 +64,13 @@ public abstract class ActivityDocotrDetailBinding extends ViewDataBinding {
   public final AppCompatTextView txtRating;
 
   protected ActivityDocotrDetailBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      AppCompatButton btnBook, HorizontalCalendarView calendarView, ImageButton imgBack,
-      LinearLayoutCompat imgCall, ImageView imgMap, ImageView imgProfile, RelativeLayout linPopular,
-      Spinner mSpinnerCity, RecyclerView rvMorningSlot, AppCompatTextView txtCategory,
+      AppCompatButton btnBook, ImageButton imgBack, LinearLayoutCompat imgCall, ImageView imgMap,
+      ImageView imgProfile, RelativeLayout linPopular, Spinner mSpinnerCity,
+      RecyclerView rvMorningSlot, AppCompatTextView txtCategory, AppCompatTextView txtDate,
       AppCompatTextView txtDrName, AppCompatTextView txtExperience, AppCompatTextView txtPatient,
       AppCompatTextView txtRating) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnBook = btnBook;
-    this.calendarView = calendarView;
     this.imgBack = imgBack;
     this.imgCall = imgCall;
     this.imgMap = imgMap;
@@ -81,6 +79,7 @@ public abstract class ActivityDocotrDetailBinding extends ViewDataBinding {
     this.mSpinnerCity = mSpinnerCity;
     this.rvMorningSlot = rvMorningSlot;
     this.txtCategory = txtCategory;
+    this.txtDate = txtDate;
     this.txtDrName = txtDrName;
     this.txtExperience = txtExperience;
     this.txtPatient = txtPatient;

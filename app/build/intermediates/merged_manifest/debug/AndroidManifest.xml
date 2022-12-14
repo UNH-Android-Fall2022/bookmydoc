@@ -33,7 +33,7 @@
             android:exported="false"
             android:theme="@style/Theme.White" />
         <activity
-            android:name="com.bookmydoc.view.DocotrLoginActivity"
+            android:name="com.bookmydoc.view.DoctorLoginActivity"
             android:exported="false"
             android:theme="@style/Theme.White" />
         <activity
@@ -61,7 +61,7 @@
             android:exported="false"
             android:theme="@style/Theme.White" />
         <activity
-            android:name="com.bookmydoc.view.DocotrDetailActivity"
+            android:name="com.bookmydoc.view.DoctorDetailActivity"
             android:exported="false"
             android:theme="@style/Theme.Blue" />
         <activity

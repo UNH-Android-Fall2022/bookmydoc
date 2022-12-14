@@ -37,7 +37,7 @@ public class ActivitySettingsBindingImpl extends ActivitySettingsBinding  {
     private ActivitySettingsBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.ImageButton) bindings[5]
-            , (de.hdodenhof.circleimageview.CircleImageView) bindings[2]
+            , (com.google.android.material.imageview.ShapeableImageView) bindings[2]
             , (androidx.appcompat.widget.LinearLayoutCompat) bindings[7]
             , (androidx.appcompat.widget.LinearLayoutCompat) bindings[8]
             , (android.widget.RelativeLayout) bindings[1]

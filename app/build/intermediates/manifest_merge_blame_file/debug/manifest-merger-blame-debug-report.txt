@@ -64,7 +64,7 @@
 34-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:23:13-47
 35        <activity
 35-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:25:9-28:40
-36            android:name="com.bookmydoc.view.DocotrLoginActivity"
+36            android:name="com.bookmydoc.view.DoctorLoginActivity"
 36-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:26:13-53
 37            android:exported="false"
 37-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:28:13-37
@@ -120,7 +120,7 @@
 62-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:52:13-47
 63        <activity
 63-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:53:9-56:49
-64            android:name="com.bookmydoc.view.DocotrDetailActivity"
+64            android:name="com.bookmydoc.view.DoctorDetailActivity"
 64-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:54:13-54
 65            android:exported="false"
 65-->C:\Users\home\Downloads\BookMyDoc-master (2)\BookMyDoc-master\app\src\main\AndroidManifest.xml:55:13-37

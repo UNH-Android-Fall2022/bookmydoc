@@ -4,6 +4,7 @@ package com.bookmydoc.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
@@ -15,7 +16,6 @@ import androidx.databinding.ViewDataBinding;
 import com.bookmydoc.R;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-import com.hbb20.CountryCodePicker;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -25,9 +25,6 @@ public abstract class ActivityRegisterBinding extends ViewDataBinding {
 
   @NonNull
   public final AppCompatCheckBox cbTermsAndCondition;
-
-  @NonNull
-  public final CountryCodePicker ccp1;
 
   @NonNull
   public final TextInputLayout ipConfirmPassword;
@@ -63,19 +60,21 @@ public abstract class ActivityRegisterBinding extends ViewDataBinding {
   public final TextInputEditText mEdtPassword;
 
   @NonNull
+  public final Spinner spCountry;
+
+  @NonNull
   public final AppCompatTextView txtLogin;
 
   protected ActivityRegisterBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      AppCompatButton btnSignup, AppCompatCheckBox cbTermsAndCondition, CountryCodePicker ccp1,
+      AppCompatButton btnSignup, AppCompatCheckBox cbTermsAndCondition,
       TextInputLayout ipConfirmPassword, TextInputLayout ipEmail, TextInputLayout ipFullName,
       TextInputLayout ipMobile, TextInputLayout ipPassword, AppCompatImageView ivProfile,
       TextInputEditText mEdtConfirmPassword, TextInputEditText mEdtEmail,
       TextInputEditText mEdtFullName, TextInputEditText mEdtMobile, TextInputEditText mEdtPassword,
-      AppCompatTextView txtLogin) {
+      Spinner spCountry, AppCompatTextView txtLogin) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnSignup = btnSignup;
     this.cbTermsAndCondition = cbTermsAndCondition;
-    this.ccp1 = ccp1;
     this.ipConfirmPassword = ipConfirmPassword;
     this.ipEmail = ipEmail;
     this.ipFullName = ipFullName;
@@ -87,6 +86,7 @@ public abstract class ActivityRegisterBinding extends ViewDataBinding {
     this.mEdtFullName = mEdtFullName;
     this.mEdtMobile = mEdtMobile;
     this.mEdtPassword = mEdtPassword;
+    this.spCountry = spCountry;
     this.txtLogin = txtLogin;
   }
 

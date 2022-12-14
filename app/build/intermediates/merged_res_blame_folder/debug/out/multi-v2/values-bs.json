@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bookmydoc.app-mergeDebugResources-54:/values-bs/values-bs.xml",
+            "outputFile": "com.bookmydoc.app-mergeDebugResources-51:/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\home\\.gradle\\caches\\transforms-3\\8b3fc4e85237e1e43b4cc74020ba40e8\\transformed\\navigation-ui-2.5.3\\res\\values-bs\\values-bs.xml",

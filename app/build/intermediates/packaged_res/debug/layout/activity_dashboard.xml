@@ -38,9 +38,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito_bold"
-                    tools:text="@string/john_doe"
                     android:textColor="#707070"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    tools:text="@string/john_doe" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -58,12 +58,13 @@
                     android:background="@drawable/profile_bg"
                     android:contentDescription="@string/app_name" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imgProfile"
                     android:layout_width="@dimen/_42sdp"
                     android:layout_height="@dimen/_42sdp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/dumy_profile" />
+                    android:src="@drawable/dumy_profile"
+                    app:shapeAppearanceOverlay="@style/customRoundedImageView" />
             </RelativeLayout>
         </RelativeLayout>
 

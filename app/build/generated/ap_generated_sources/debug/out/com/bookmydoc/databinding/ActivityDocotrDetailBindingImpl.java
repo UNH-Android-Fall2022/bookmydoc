@@ -23,7 +23,7 @@ public class ActivityDocotrDetailBindingImpl extends ActivityDocotrDetailBinding
         sViewsWithIds.put(R.id.txtExperience, 7);
         sViewsWithIds.put(R.id.txtRating, 8);
         sViewsWithIds.put(R.id.imgMap, 9);
-        sViewsWithIds.put(R.id.calendarView, 10);
+        sViewsWithIds.put(R.id.txtDate, 10);
         sViewsWithIds.put(R.id.rvMorningSlot, 11);
         sViewsWithIds.put(R.id.mSpinnerCity, 12);
         sViewsWithIds.put(R.id.imgCall, 13);
@@ -43,7 +43,6 @@ public class ActivityDocotrDetailBindingImpl extends ActivityDocotrDetailBinding
     private ActivityDocotrDetailBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (androidx.appcompat.widget.AppCompatButton) bindings[14]
-            , (com.bookmydoc.horizontalcalendar.HorizontalCalendarView) bindings[10]
             , (android.widget.ImageButton) bindings[2]
             , (androidx.appcompat.widget.LinearLayoutCompat) bindings[13]
             , (android.widget.ImageView) bindings[9]
@@ -52,6 +51,7 @@ public class ActivityDocotrDetailBindingImpl extends ActivityDocotrDetailBinding
             , (android.widget.Spinner) bindings[12]
             , (androidx.recyclerview.widget.RecyclerView) bindings[11]
             , (androidx.appcompat.widget.AppCompatTextView) bindings[4]
+            , (androidx.appcompat.widget.AppCompatTextView) bindings[10]
             , (androidx.appcompat.widget.AppCompatTextView) bindings[3]
             , (androidx.appcompat.widget.AppCompatTextView) bindings[7]
             , (androidx.appcompat.widget.AppCompatTextView) bindings[6]

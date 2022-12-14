@@ -1,5 +1,6 @@
 package com.bookmydoc.adapter
 
+import android.content.Context
 import android.os.Build
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,9 +8,6 @@ import androidx.annotation.RequiresApi
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bookmydoc.R
-import com.bookmydoc.base.BaseActivity
-import com.bookmydoc.databinding.ViewBookingTimeBinding
-import com.bookmydoc.databinding.ViewCategoryBinding
 import com.bookmydoc.databinding.ViewDoctorBinding
 import com.bookmydoc.interfaces.ListSelector
 import com.bookmydoc.model.Doctors
@@ -17,7 +15,7 @@ import com.bookmydoc.model.Doctors
 class DoctorAdapter(val mCallBack: ListSelector, val mcount: Int) :
     RecyclerView.Adapter<DoctorAdapter.ViewHolder>() {
     public var itemList: ArrayList<Doctors>? = null
-    private var activity: BaseActivity? = null
+    private var activity: Context? = null
     private var count: Int? = mcount
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
@@ -46,7 +44,7 @@ class DoctorAdapter(val mCallBack: ListSelector, val mcount: Int) :
     }
 
     fun setUpcomingList(
-        activity: BaseActivity,
+        activity: Context,
         itemList: ArrayList<Doctors>?
     ) {
         this.itemList = itemList

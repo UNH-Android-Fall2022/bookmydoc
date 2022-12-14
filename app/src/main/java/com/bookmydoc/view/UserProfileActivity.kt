@@ -2,30 +2,39 @@ package com.bookmydoc.view
 
 import android.Manifest
 import android.app.Activity
+import android.app.Dialog
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.View
+import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.net.toUri
 import androidx.databinding.DataBindingUtil
+import coil.load
 import com.bookmydoc.Constants
 import com.bookmydoc.R
-import com.bookmydoc.base.BaseActivity
 import com.bookmydoc.databinding.ActivityCategoryBinding
 import com.bookmydoc.databinding.ActivityUserProfileBinding
-import com.bookmydoc.firestore.FireStoreClass
 import com.bookmydoc.model.User
-import com.bumptech.glide.Glide
+import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.StorageReference
 import java.io.IOException
 
-class UserProfileActivity : BaseActivity(), View.OnClickListener {
+class UserProfileActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var binding: ActivityUserProfileBinding
 
+    private val mFireStore = FirebaseFirestore.getInstance()
+    private var mProgressDialog: Dialog? = null
     private lateinit var mUserDetails: User
     private var mSelectedProfileImageFileUri: Uri? = null
     private var mUserProfileImageUrl: String = ""
@@ -47,21 +56,22 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
 
                 binding.mEdtFullName.isEnabled = false
 
-            }else{
+            } else {
 
                 binding.txtTitle.text = getString(R.string.edit_profile)
-                Glide.with(this)
-                    .load(mUserDetails.image)
-                    .into(binding.imgProfile)
+                //to build image in https
+                val imgUri = mUserDetails.image.toUri().buildUpon().scheme("https").build()
+                binding.imgProfile.load(imgUri)
 
 
-                if (mUserDetails.mobile != 0L){
+
+                if (mUserDetails.mobile != 0L) {
                     binding.mEdtMobile.setText(mUserDetails.mobile.toString())
                 }
 
-                if (mUserDetails.gender == Constants.MALE){
+                if (mUserDetails.gender == Constants.MALE) {
                     binding.rbMale.isChecked = true
-                }else{
+                } else {
                     binding.rbFemale.isChecked = true
                 }
 
@@ -71,6 +81,40 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
         binding.btnUpdate.setOnClickListener(this)
     }
 
+    fun showErrorSnackBar(message: String, errorMessage: Boolean) {
+        val snackBar =
+            Snackbar.make(findViewById(android.R.id.content), message, Snackbar.LENGTH_LONG)
+
+        val snackBarView = snackBar.view
+
+        if (errorMessage) {
+            snackBarView.setBackgroundColor(
+                ContextCompat.getColor(this@UserProfileActivity, R.color.colorSnackBarError)
+            )
+        } else {
+            snackBarView.setBackgroundColor(
+                ContextCompat.getColor(this@UserProfileActivity, R.color.colorSnackBarSuccess)
+            )
+        }
+        snackBar.show()
+    }
+
+    fun showProgressDialog(message: String) {
+        mProgressDialog = Dialog(this)
+        mProgressDialog!!.setContentView(R.layout.dialog_progress)
+        mProgressDialog!!.findViewById<TextView>(R.id.tv_progress_text).text = message
+        mProgressDialog!!.setCancelable(false)
+        mProgressDialog!!.setCanceledOnTouchOutside(false)
+        mProgressDialog?.show()
+    }
+
+    fun hideProgressDialog() {
+        mProgressDialog!!.hide()
+    }
+
+    fun dismissProgressDialog() {
+        mProgressDialog?.dismiss()
+    }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -78,9 +122,9 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
             if (data!!.data != null) {
                 try {
                     mSelectedProfileImageFileUri = data.data
-                    Glide.with(this)
-                        .load(mSelectedProfileImageFileUri!!)
-                        .into(binding.imgProfile)
+
+                    val imgUri = mSelectedProfileImageFileUri!!.buildUpon().scheme("https").build()
+                    binding.imgProfile.load(imgUri)
 
 
                 } catch (e: IOException) {
@@ -137,8 +181,7 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
 
                     if (mSelectedProfileImageFileUri != null) {
 
-                        FireStoreClass().uploadImageToCloudStorage(
-                            this,
+                        uploadImageToCloudStorage(
                             mSelectedProfileImageFileUri,
                             Constants.USER_PROFILE_IMAGE
                         )
@@ -151,26 +194,39 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
         }
     }
 
-    private fun updateEditedUserProfileDetails(){
+    fun uploadImageToCloudStorage(imageFileUri: Uri?, imageType: String) {
+        val shrf: StorageReference = FirebaseStorage.getInstance().reference.child(
+            imageType
+                    + System.currentTimeMillis() + "."
+                    + Constants.getFileExtension(this, imageFileUri)
+        )
 
-        val userHashMap = HashMap<String,Any>()
+        shrf.putFile(imageFileUri!!)
+            .addOnSuccessListener { snapShot ->
+                Log.e("Firebase Image Url", snapShot.metadata!!.reference!!.downloadUrl.toString())
+                snapShot.metadata!!.reference!!.downloadUrl
+                    .addOnSuccessListener { uri ->
+                        Log.e("Image Url", uri.toString())
+                        mUserProfileImageUrl = uri.toString()
 
+                        updateUserProfileDetails()
 
+                    }
+            }.addOnFailureListener { e ->
+                hideProgressDialog()
 
-        if (binding.mEdtMobile.text.toString() != mUserDetails.mobile.toString() && binding.mEdtMobile.text.toString() != "0L"){
-            userHashMap[Constants.MOBILE] = binding.mEdtMobile.text.toString().toLong()
-        }
-        userHashMap[Constants.GENDER] = if (binding.rbMale.isChecked) Constants.MALE else Constants.FEMALE
-
-
+                Log.e("Error while uploading", "Error while uploading image to db", e)
+            }
     }
+
 
     private fun updateUserProfileDetails() {
 
         val userHashMap: HashMap<String, Any> = HashMap()
 
-        if (mUserDetails.fullName != binding.mEdtFullName.text.toString().trim{ it<=' '}){
-            userHashMap[Constants.FULL_NAME] = binding.mEdtFullName.text.toString().trim{ it<= ' '}
+        if (mUserDetails.fullName != binding.mEdtFullName.text.toString().trim { it <= ' ' }) {
+            userHashMap[Constants.FULL_NAME] =
+                binding.mEdtFullName.text.toString().trim { it <= ' ' }
         }
 
 
@@ -189,15 +245,45 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
             userHashMap[Constants.MOBILE] = mobileNumber.toLong()
         }
 
-        if(gender.isNotEmpty() && gender != mUserDetails.gender){
+        if (gender.isNotEmpty() && gender != mUserDetails.gender) {
             userHashMap[Constants.GENDER] = gender
         }
         userHashMap[Constants.PROFILE_COMPLETED] = 1
         userHashMap[Constants.GENDER] = gender
 
-        FireStoreClass().updateUserProfileData(this, userHashMap)
+        updateUserProfileData(userHashMap)
 
     }
+
+    fun getCurrentUserId(): String {
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        var currentUserId = ""
+        if (currentUser != null) {
+            currentUserId = currentUser.uid
+        }
+        return currentUserId
+    }
+
+    fun updateUserProfileData(userHashMap: HashMap<String, Any>) {
+
+        mFireStore.collection(Constants.USERS)
+            .document(getCurrentUserId())
+            .update(userHashMap)
+            .addOnSuccessListener {
+                hideProgressDialog()
+                Toast.makeText(this, getString(R.string.profile_update_success_message), Toast.LENGTH_SHORT)
+                    .show()
+
+                startActivity(Intent(this, DashboardActivity::class.java))
+                finish()
+
+            }.addOnFailureListener { e ->
+                hideProgressDialog()
+
+
+            }
+    }
+
 
     private fun validateUserProfileData(): Boolean {
         return when {
@@ -211,24 +297,10 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
         }
     }
 
-    fun userProfileUpdateSuccess() {
-        hideProgressDialog()
-        Toast.makeText(this, getString(R.string.profile_update_success_message), Toast.LENGTH_SHORT)
-            .show()
-
-        startActivity(Intent(this, DashboardActivity::class.java))
-        finish()
-    }
-
     override fun onDestroy() {
         super.onDestroy()
         dismissProgressDialog()
     }
 
-    fun imageUploadSuccess(imageURL: String) {
 
-        mUserProfileImageUrl = imageURL
-
-        updateUserProfileDetails()
-    }
 }

@@ -44,7 +44,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_20sdp">
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/imgProfile"
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
@@ -116,16 +116,15 @@
             android:layout_marginEnd="@dimen/_20sdp"
             android:orientation="horizontal">
 
-            <com.hbb20.CountryCodePicker
-                android:id="@+id/ccp1"
-                android:layout_width="wrap_content"
+            <Spinner
+                android:id="@+id/spCountry"
+                android:layout_width="@dimen/_80sdp"
                 android:layout_height="@dimen/_40sdp"
-                android:layout_gravity="center_vertical"
-                android:background="@drawable/bg_edittextbox"
-                android:gravity="center_vertical"
-                app:ccp_contentColor="#6E7DB1"
-                app:ccp_defaultNameCode="us"
-                app:ccp_textSize="@dimen/_10sdp" />
+                android:paddingStart="@dimen/_10sdp"
+                android:background="@drawable/rounded_gray_border"
+                android:entries="@array/CountryCodes"/>
+
+
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/ipMobile"

@@ -1,23 +1,23 @@
 package com.bookmydoc.adapter
 
+import android.content.Context
 import android.os.Build
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
+import androidx.core.net.toUri
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
 import com.bookmydoc.R
-import com.bookmydoc.base.BaseActivity
-import com.bookmydoc.databinding.ViewBookingTimeBinding
 import com.bookmydoc.databinding.ViewCategoryBinding
 import com.bookmydoc.interfaces.ListSelector
 import com.bookmydoc.model.Categories
-import com.bumptech.glide.Glide
 
 class CategoryAdapter(val mCallBack: ListSelector, val mcount: Int) :
     RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {
     public var itemList: ArrayList<Categories>? = null
-    private var activity: BaseActivity? = null
+    private var activity: Context? = null
     private var count: Int? = mcount
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
@@ -35,9 +35,9 @@ class CategoryAdapter(val mCallBack: ListSelector, val mcount: Int) :
         holder.itemView.setOnClickListener {
             mCallBack.selectedList(i)
         }
-        Glide.with(activity!!)
-            .load(itemList!!.get(i).image)
-            .into(holder.mBinding.image)
+        val imgUri = itemList!!.get(i).image.toUri().buildUpon().scheme("https").build()
+        holder.mBinding.image.load(imgUri)
+
     }
 
     override fun getItemCount(): Int {
@@ -46,7 +46,7 @@ class CategoryAdapter(val mCallBack: ListSelector, val mcount: Int) :
     }
 
     fun setUpcomingList(
-        activity: BaseActivity,
+        activity: Context,
         itemList: ArrayList<Categories>?
     ) {
         this.itemList = itemList

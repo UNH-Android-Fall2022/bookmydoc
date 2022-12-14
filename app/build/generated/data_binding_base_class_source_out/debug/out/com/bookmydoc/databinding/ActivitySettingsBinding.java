@@ -13,7 +13,7 @@ import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.bookmydoc.R;
-import de.hdodenhof.circleimageview.CircleImageView;
+import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -22,7 +22,7 @@ public abstract class ActivitySettingsBinding extends ViewDataBinding {
   public final ImageButton imgBack;
 
   @NonNull
-  public final CircleImageView imgProfile;
+  public final ShapeableImageView imgProfile;
 
   @NonNull
   public final LinearLayoutCompat linAppointment;
@@ -43,7 +43,7 @@ public abstract class ActivitySettingsBinding extends ViewDataBinding {
   public final AppCompatTextView txtUserName;
 
   protected ActivitySettingsBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageButton imgBack, CircleImageView imgProfile, LinearLayoutCompat linAppointment,
+      ImageButton imgBack, ShapeableImageView imgProfile, LinearLayoutCompat linAppointment,
       LinearLayoutCompat linLogout, RelativeLayout linPopular, LinearLayoutCompat linProfile,
       AppCompatTextView txtEmail, AppCompatTextView txtUserName) {
     super(_bindingComponent, _root, _localFieldCount);

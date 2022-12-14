@@ -7,14 +7,14 @@ import androidx.annotation.RequiresApi
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bookmydoc.R
-import com.bookmydoc.base.BaseActivity
 import com.bookmydoc.databinding.ViewBookingTimeBinding
 import com.bookmydoc.interfaces.ListSelector
+import com.bookmydoc.view.DoctorDetailActivity
 
 class SlotAdapter(val mCallBack: ListSelector, val mcount: Int) :
     RecyclerView.Adapter<SlotAdapter.ViewHolder>() {
     public var itemList: ArrayList<String>? = null
-    private var activity: BaseActivity? = null
+    private var activity: DoctorDetailActivity? = null
     private var count: Int? = mcount
     var row_index = -1
 
@@ -51,7 +51,7 @@ class SlotAdapter(val mCallBack: ListSelector, val mcount: Int) :
     }
 
     fun setUpcomingList(
-        activity: BaseActivity,
+        activity: DoctorDetailActivity,
         itemList: ArrayList<String>?
     ) {
         this.itemList = itemList

@@ -23,7 +23,7 @@ public class ActivityUserProfileBindingImpl extends ActivityUserProfileBinding  
         sViewsWithIds.put(R.id.mEdtFullName, 7);
         sViewsWithIds.put(R.id.ipEmail, 8);
         sViewsWithIds.put(R.id.mEdtEmail, 9);
-        sViewsWithIds.put(R.id.ccp1, 10);
+        sViewsWithIds.put(R.id.spCountry, 10);
         sViewsWithIds.put(R.id.ipMobile, 11);
         sViewsWithIds.put(R.id.mEdtMobile, 12);
         sViewsWithIds.put(R.id.rbMale, 13);
@@ -44,10 +44,9 @@ public class ActivityUserProfileBindingImpl extends ActivityUserProfileBinding  
     private ActivityUserProfileBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (androidx.appcompat.widget.AppCompatButton) bindings[15]
-            , (com.hbb20.CountryCodePicker) bindings[10]
             , (android.widget.ImageButton) bindings[2]
             , (android.widget.ImageView) bindings[5]
-            , (de.hdodenhof.circleimageview.CircleImageView) bindings[4]
+            , (com.google.android.material.imageview.ShapeableImageView) bindings[4]
             , (com.google.android.material.textfield.TextInputLayout) bindings[8]
             , (com.google.android.material.textfield.TextInputLayout) bindings[6]
             , (com.google.android.material.textfield.TextInputLayout) bindings[11]
@@ -57,6 +56,7 @@ public class ActivityUserProfileBindingImpl extends ActivityUserProfileBinding  
             , (android.widget.RadioButton) bindings[14]
             , (android.widget.RadioButton) bindings[13]
             , (android.widget.RelativeLayout) bindings[1]
+            , (android.widget.Spinner) bindings[10]
             , (androidx.appcompat.widget.AppCompatTextView) bindings[3]
             );
         this.mboundView0 = (androidx.appcompat.widget.LinearLayoutCompat) bindings[0];

@@ -15,7 +15,7 @@ import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bookmydoc.R;
 import com.google.android.material.card.MaterialCardView;
-import de.hdodenhof.circleimageview.CircleImageView;
+import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -33,7 +33,7 @@ public abstract class ActivityDashboardBinding extends ViewDataBinding {
   public final MaterialCardView cardTopDoctor;
 
   @NonNull
-  public final CircleImageView imgProfile;
+  public final ShapeableImageView imgProfile;
 
   @NonNull
   public final LinearLayout linCategory;
@@ -76,7 +76,7 @@ public abstract class ActivityDashboardBinding extends ViewDataBinding {
 
   protected ActivityDashboardBinding(Object _bindingComponent, View _root, int _localFieldCount,
       MaterialCardView cardBrain, MaterialCardView cardDental, MaterialCardView cardEye,
-      MaterialCardView cardTopDoctor, CircleImageView imgProfile, LinearLayout linCategory,
+      MaterialCardView cardTopDoctor, ShapeableImageView imgProfile, LinearLayout linCategory,
       LinearLayoutCompat linPopular, LinearLayoutCompat linUserName, RelativeLayout rlProfile,
       RelativeLayout rlSearch, RelativeLayout rlToolbar, RecyclerView rvDoctors,
       RecyclerView rvMorningSlot, AppCompatTextView txtCategory, AppCompatTextView txtDrName,

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bookmydoc.app-mergeDebugResources-54:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.bookmydoc.app-mergeDebugResources-51:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\home\\.gradle\\caches\\transforms-3\\df50d7f539850981a4043b1dd3c16588\\transformed\\play-services-base-18.0.1\\res\\values-b+sr+Latn\\values.xml",

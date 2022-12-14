@@ -41,13 +41,15 @@
                         android:background="@drawable/profile_bg"
                         android:contentDescription="@string/app_name" />
 
-                    <de.hdodenhof.circleimageview.CircleImageView
+                    <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/imgProfile"
                         android:layout_width="@dimen/_80sdp"
                         android:layout_height="@dimen/_80sdp"
                         android:layout_centerInParent="true"
                         android:src="@drawable/ic_user_placeholder"
-                        app:civ_border_color="@color/white" />
+                        app:shapeAppearanceOverlay="@style/customRoundedImageView" />
+
+
                 </RelativeLayout>
 
                 <androidx.appcompat.widget.AppCompatTextView
@@ -176,9 +178,9 @@
             android:layout_marginEnd="@dimen/_15sdp"
             android:layout_marginBottom="@dimen/_7sdp"
             android:background="@color/white"
-            app:cardBackgroundColor="@color/white"
             android:outlineAmbientShadowColor="#000"
             android:outlineSpotShadowColor="#14000000"
+            app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="@dimen/_16sdp"
 
             app:cardElevation="@dimen/_10sdp">

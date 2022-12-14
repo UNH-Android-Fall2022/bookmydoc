@@ -1,15 +1,15 @@
 package com.bookmydoc.view
 
+import android.app.Dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.databinding.DataBindingUtil
 import com.bookmydoc.R
-import com.bookmydoc.base.BaseActivity
 import com.bookmydoc.databinding.ActivitySuccessBinding
 
-class SuccessActivity : BaseActivity(), View.OnClickListener {
+class SuccessActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var binding: ActivitySuccessBinding
 
     var drName: String = ""

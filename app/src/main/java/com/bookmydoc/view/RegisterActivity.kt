@@ -1,27 +1,74 @@
 package com.bookmydoc.view
 
+import android.app.Activity
+import android.app.Dialog
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.View
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import com.bookmydoc.Constants
 import com.bookmydoc.R
-import com.bookmydoc.base.BaseActivity
 import com.bookmydoc.databinding.ActivityRegisterBinding
-import com.bookmydoc.firestore.FireStoreClass
 import com.bookmydoc.model.User
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.SetOptions
 
-class RegisterActivity : BaseActivity(), View.OnClickListener {
+class RegisterActivity : AppCompatActivity(), View.OnClickListener {
+
+    private val mFireStore = FirebaseFirestore.getInstance()
+    private var mProgressDialog: Dialog? = null
     private lateinit var binding: ActivityRegisterBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_register)
         binding.txtLogin.setOnClickListener(this)
         binding.btnSignup.setOnClickListener(this)
+    }
+
+    fun showErrorSnackBar(message: String, errorMessage: Boolean) {
+        val snackBar =
+            Snackbar.make(findViewById(android.R.id.content), message, Snackbar.LENGTH_LONG)
+
+        val snackBarView = snackBar.view
+
+        if (errorMessage) {
+            snackBarView.setBackgroundColor(
+                ContextCompat.getColor(this@RegisterActivity, R.color.colorSnackBarError)
+            )
+        } else {
+            snackBarView.setBackgroundColor(
+                ContextCompat.getColor(this@RegisterActivity, R.color.colorSnackBarSuccess)
+            )
+        }
+        snackBar.show()
+    }
+
+    fun showProgressDialog(message: String) {
+        mProgressDialog = Dialog(this)
+        mProgressDialog!!.setContentView(R.layout.dialog_progress)
+        mProgressDialog!!.findViewById<TextView>(R.id.tv_progress_text).text = message
+        mProgressDialog!!.setCancelable(false)
+        mProgressDialog!!.setCanceledOnTouchOutside(false)
+        mProgressDialog?.show()
+    }
+
+    fun hideProgressDialog() {
+        mProgressDialog!!.hide()
+    }
+
+    fun dismissProgressDialog() {
+        mProgressDialog?.dismiss()
     }
 
     override fun onClick(view: View?) {
@@ -35,7 +82,7 @@ class RegisterActivity : BaseActivity(), View.OnClickListener {
             }
         }
     }
-
+// registering new users with details
     private fun registerUser() {
         if (validateRegisterDetails()) {
             showProgressDialog(getString(R.string.please_wait))
@@ -53,12 +100,12 @@ class RegisterActivity : BaseActivity(), View.OnClickListener {
                             binding.mEdtFullName.text.toString().trim { it <= ' ' },
                             binding.mEdtEmail.text.toString().trim { it <= ' ' },
                             binding.mEdtMobile.text.toString().toLong(),
-                            binding.ccp1.selectedCountryName.toString().trim { it <= ' ' })
+                            binding.spCountry.getSelectedItem().toString().trim { it <= ' ' })
 
                         //Register the user to the FireStore firebase
-                        FireStoreClass().registerUser(this, user)
+                        registerUser(user)
                         //getting details and logged in the user
-                        FireStoreClass().getUserDetails(this@RegisterActivity)
+                        getUserDetails()
                     } else {
                         hideProgressDialog()
                         Toast.makeText(
@@ -74,6 +121,71 @@ class RegisterActivity : BaseActivity(), View.OnClickListener {
                     exception.printStackTrace()
                 }
         }
+    }
+
+    fun registerUser(user: User) {
+        mFireStore.collection(Constants.USERS)
+            .document(user.id)
+            .set(user, SetOptions.merge())
+            .addOnSuccessListener {
+                hideProgressDialog()
+                Toast.makeText(
+                    this@RegisterActivity,
+                    "You are registered successfully",
+                    Toast.LENGTH_SHORT
+                )
+                    .show()
+            }.addOnFailureListener { exception ->
+                hideProgressDialog()
+
+            }
+
+    }
+
+    fun getCurrentUserId(): String {
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        var currentUserId = ""
+        if (currentUser != null) {
+            currentUserId = currentUser.uid
+        }
+        return currentUserId
+    }
+
+
+    fun getUserDetails() {
+        mFireStore.collection(Constants.USERS)
+            .document(getCurrentUserId())
+            .get()
+            .addOnSuccessListener { document ->
+                val user = document.toObject(User::class.java)
+                if (user != null) {
+
+                    val sharedPref = getSharedPreferences(
+                        Constants.MY_SHOP_PAL_PREFERENCES,
+                        Context.MODE_PRIVATE
+                    )
+
+                    val editor: SharedPreferences.Editor = sharedPref.edit()
+                    editor.putString(
+                        Constants.LOGGED_IN_USERNAME,
+                        "${user.fullName}"
+                    )
+                    editor.apply()
+
+
+                    hideProgressDialog()
+                    val intent = Intent(this@RegisterActivity, WelcomeActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                    intent.putExtra(Constants.EXTRA_USER_DETAILS, user)
+                    startActivity(intent)
+                    finishAffinity()
+
+                }
+
+            }.addOnFailureListener { exception ->
+                hideProgressDialog()
+
+            }
     }
 
     private fun validateRegisterDetails(): Boolean {
@@ -111,20 +223,7 @@ class RegisterActivity : BaseActivity(), View.OnClickListener {
         }
     }
 
-    fun userRegistrationSuccess() {
-        hideProgressDialog()
-        Toast.makeText(this@RegisterActivity, "You are registered successfully", Toast.LENGTH_SHORT)
-            .show()
-    }
 
-    fun userLoggedInSuccess(user: User) {
-        hideProgressDialog()
-        val intent = Intent(this@RegisterActivity, WelcomeActivity::class.java)
-        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-        intent.putExtra(Constants.EXTRA_USER_DETAILS, user)
-        startActivity(intent)
-        finishAffinity()
-    }
 
     override fun onDestroy() {
         dismissProgressDialog()

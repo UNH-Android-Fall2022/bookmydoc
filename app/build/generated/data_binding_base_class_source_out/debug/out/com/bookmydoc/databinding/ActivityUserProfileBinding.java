@@ -8,6 +8,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RelativeLayout;
+import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
@@ -15,10 +16,9 @@ import androidx.appcompat.widget.AppCompatTextView;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.bookmydoc.R;
+import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-import com.hbb20.CountryCodePicker;
-import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -27,16 +27,13 @@ public abstract class ActivityUserProfileBinding extends ViewDataBinding {
   public final AppCompatButton btnUpdate;
 
   @NonNull
-  public final CountryCodePicker ccp1;
-
-  @NonNull
   public final ImageButton imgBack;
 
   @NonNull
   public final ImageView imgPic;
 
   @NonNull
-  public final CircleImageView imgProfile;
+  public final ShapeableImageView imgProfile;
 
   @NonNull
   public final TextInputLayout ipEmail;
@@ -66,17 +63,19 @@ public abstract class ActivityUserProfileBinding extends ViewDataBinding {
   public final RelativeLayout rlToolbar;
 
   @NonNull
+  public final Spinner spCountry;
+
+  @NonNull
   public final AppCompatTextView txtTitle;
 
   protected ActivityUserProfileBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      AppCompatButton btnUpdate, CountryCodePicker ccp1, ImageButton imgBack, ImageView imgPic,
-      CircleImageView imgProfile, TextInputLayout ipEmail, TextInputLayout ipFullName,
+      AppCompatButton btnUpdate, ImageButton imgBack, ImageView imgPic,
+      ShapeableImageView imgProfile, TextInputLayout ipEmail, TextInputLayout ipFullName,
       TextInputLayout ipMobile, TextInputEditText mEdtEmail, TextInputEditText mEdtFullName,
       TextInputEditText mEdtMobile, RadioButton rbFemale, RadioButton rbMale,
-      RelativeLayout rlToolbar, AppCompatTextView txtTitle) {
+      RelativeLayout rlToolbar, Spinner spCountry, AppCompatTextView txtTitle) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnUpdate = btnUpdate;
-    this.ccp1 = ccp1;
     this.imgBack = imgBack;
     this.imgPic = imgPic;
     this.imgProfile = imgProfile;
@@ -89,6 +88,7 @@ public abstract class ActivityUserProfileBinding extends ViewDataBinding {
     this.rbFemale = rbFemale;
     this.rbMale = rbMale;
     this.rlToolbar = rlToolbar;
+    this.spCountry = spCountry;
     this.txtTitle = txtTitle;
   }
 

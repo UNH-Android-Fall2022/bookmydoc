@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bookmydoc.app-mergeDebugResources-54:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.bookmydoc.app-mergeDebugResources-51:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\home\\.gradle\\caches\\transforms-3\\50d5425e99a4fe714bbbb8031104d295\\transformed\\browser-1.4.0\\res\\values-en-rGB\\values-en-rGB.xml",

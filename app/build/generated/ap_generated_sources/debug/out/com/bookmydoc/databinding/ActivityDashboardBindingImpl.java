@@ -50,7 +50,7 @@ public class ActivityDashboardBindingImpl extends ActivityDashboardBinding  {
             , (com.google.android.material.card.MaterialCardView) bindings[12]
             , (com.google.android.material.card.MaterialCardView) bindings[14]
             , (com.google.android.material.card.MaterialCardView) bindings[18]
-            , (de.hdodenhof.circleimageview.CircleImageView) bindings[5]
+            , (com.google.android.material.imageview.ShapeableImageView) bindings[5]
             , (android.widget.LinearLayout) bindings[10]
             , (androidx.appcompat.widget.LinearLayoutCompat) bindings[7]
             , (androidx.appcompat.widget.LinearLayoutCompat) bindings[2]

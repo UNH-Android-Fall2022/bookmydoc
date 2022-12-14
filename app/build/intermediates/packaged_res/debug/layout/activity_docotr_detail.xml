@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/dashboard_bg"
         android:orientation="vertical"
-        tools:context=".view.DocotrDetailActivity" android:tag="layout/activity_docotr_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+        tools:context=".view.DoctorDetailActivity" android:tag="layout/activity_docotr_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
         <RelativeLayout
             android:id="@+id/linPopular"
@@ -258,17 +258,19 @@
                     android:textColor="#6E7DB1"
                     android:textSize="24sp" />
 
-                <com.bookmydoc.horizontalcalendar.HorizontalCalendarView
-                    android:id="@+id/calendarView"
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtDate"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:clipToPadding="false"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:background="@drawable/bg_edittextbox"
+                    android:fontFamily="@font/nunito"
+                    android:gravity="center_vertical"
+                    android:text="Select Date"
                     android:paddingStart="@dimen/_10sdp"
-                    android:paddingEnd="@dimen/_7sdp"
-                    android:visibility="visible"
-                    app:textColorNormal="#6E7DB1"
-                    app:textColorSelected="@color/white" />
+                    android:textSize="12sp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="match_parent"
@@ -318,7 +320,7 @@
                         android:id="@+id/mSpinnerCity"
                         android:layout_width="match_parent"
                         android:layout_height="?attr/listPreferredItemHeightSmall"
-                       android:layout_margin="2dp" />
+                        android:layout_margin="2dp" />
 
                 </RelativeLayout>
 

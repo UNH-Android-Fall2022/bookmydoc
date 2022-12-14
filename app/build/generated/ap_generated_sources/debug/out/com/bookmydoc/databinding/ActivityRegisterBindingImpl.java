@@ -19,7 +19,7 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
         sViewsWithIds.put(R.id.mEdtFullName, 3);
         sViewsWithIds.put(R.id.ipEmail, 4);
         sViewsWithIds.put(R.id.mEdtEmail, 5);
-        sViewsWithIds.put(R.id.ccp1, 6);
+        sViewsWithIds.put(R.id.spCountry, 6);
         sViewsWithIds.put(R.id.ipMobile, 7);
         sViewsWithIds.put(R.id.mEdtMobile, 8);
         sViewsWithIds.put(R.id.ipPassword, 9);
@@ -45,7 +45,6 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
         super(bindingComponent, root, 0
             , (androidx.appcompat.widget.AppCompatButton) bindings[14]
             , (androidx.appcompat.widget.AppCompatCheckBox) bindings[13]
-            , (com.hbb20.CountryCodePicker) bindings[6]
             , (com.google.android.material.textfield.TextInputLayout) bindings[11]
             , (com.google.android.material.textfield.TextInputLayout) bindings[4]
             , (com.google.android.material.textfield.TextInputLayout) bindings[2]
@@ -57,6 +56,7 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
             , (com.google.android.material.textfield.TextInputEditText) bindings[3]
             , (com.google.android.material.textfield.TextInputEditText) bindings[8]
             , (com.google.android.material.textfield.TextInputEditText) bindings[10]
+            , (android.widget.Spinner) bindings[6]
             , (androidx.appcompat.widget.AppCompatTextView) bindings[15]
             );
         this.mboundView0 = (androidx.core.widget.NestedScrollView) bindings[0];

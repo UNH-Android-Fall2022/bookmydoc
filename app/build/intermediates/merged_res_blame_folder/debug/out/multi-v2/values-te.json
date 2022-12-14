@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bookmydoc.app-mergeDebugResources-54:/values-te/values-te.xml",
+            "outputFile": "com.bookmydoc.app-mergeDebugResources-51:/values-te/values-te.xml",
             "map": [
                 {
                     "source": "C:\\Users\\home\\.gradle\\caches\\transforms-3\\8b3fc4e85237e1e43b4cc74020ba40e8\\transformed\\navigation-ui-2.5.3\\res\\values-te\\values-te.xml",
