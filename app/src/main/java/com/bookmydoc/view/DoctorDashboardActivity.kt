@@ -42,7 +42,7 @@ class DoctorDashboardActivity : AppCompatActivity(), View.OnClickListener {
         binding.txtUserName.text = mUserDetails.name
         getDoctorBookingList(mUserDetails.doctor_id)
     }
-
+//retreiving upcoming booking details
     fun getDoctorBookingList(uer_id: String) {
         showProgressDialog("")
         mFireStore.collection(Constants.BOOKING)

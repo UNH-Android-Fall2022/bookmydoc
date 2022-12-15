@@ -58,7 +58,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito_bold"
                     android:paddingEnd="@dimen/_20sdp"
-                    android:text="Karan Pitroda"
                     android:textColor="#FFF"
                     android:textSize="24sp" />
 
@@ -68,7 +67,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_8sdp"
                     android:fontFamily="@font/nunito"
-                    android:text="karanpitroda1012@gmail.com"
                     android:textColor="#FFF"
                     android:textSize="18sp" />
             </androidx.appcompat.widget.LinearLayoutCompat>

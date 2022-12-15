@@ -228,7 +228,7 @@ class DoctorDetailActivity : AppCompatActivity(), View.OnClickListener {
 
 
     }
-
+// retrieving current user id
     fun getCurrentUserId(): String {
         val currentUser = FirebaseAuth.getInstance().currentUser
         var currentUserId = ""
@@ -267,7 +267,7 @@ class DoctorDetailActivity : AppCompatActivity(), View.OnClickListener {
 
             }
     }
-
+//updating booking details
     fun addBooking() {
         val booking = Booking(
             System.currentTimeMillis().toString(),

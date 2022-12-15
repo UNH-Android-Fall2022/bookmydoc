@@ -318,6 +318,7 @@
                             app:cardCornerRadius="@dimen/_10sdp"
                             app:cardElevation="@dimen/_10sdp">
 
+                      <!-- https://www.flaticon.com/  -->
                             <androidx.appcompat.widget.LinearLayoutCompat
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"

@@ -132,7 +132,7 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-
+// retrieving current userid
     fun getCurrentUserId(): String {
         val currentUser = FirebaseAuth.getInstance().currentUser
         var currentUserId = ""
@@ -142,7 +142,7 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
         return currentUserId
     }
 
-
+// retrieving user details and also using shared preferences to store it
     fun getUserDetails() {
         showProgressDialog(getString(R.string.please_wait))
         mFireStore.collection(Constants.USERS)
@@ -179,7 +179,7 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
             }
     }
 
-
+// retreiving categories list
     fun getCategoriesList() {
         mFireStore.collection(Constants.CATEGORIES)
             .get()

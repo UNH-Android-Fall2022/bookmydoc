@@ -36,16 +36,8 @@
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\font\\nunito.xml"
     },
     {
-        "merged": "com.bookmydoc.app-merged_res-53:/layout_activity_docotr_login.xml.flat",
-        "source": "com.bookmydoc.app-main-55:/layout/activity_docotr_login.xml"
-    },
-    {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_bg_edittextbox.xml.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\bg_edittextbox.xml"
-    },
-    {
-        "merged": "com.bookmydoc.app-merged_res-53:/layout_activity_docotr_detail.xml.flat",
-        "source": "com.bookmydoc.app-main-55:/layout/activity_docotr_detail.xml"
     },
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -80,12 +72,12 @@
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\urologist.png"
     },
     {
-        "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_ic_log_out_outline.xml.flat",
-        "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\ic_log_out_outline.xml"
-    },
-    {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_ic_log_out_outline.xml.flat",
+        "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\ic_log_out_outline.xml"
     },
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -132,12 +124,12 @@
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\rounded_blue_date.xml"
     },
     {
-        "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_ic_welcome_illue.xml.flat",
-        "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\ic_welcome_illue.xml"
-    },
-    {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_ic_welcome_illue.xml.flat",
+        "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\ic_welcome_illue.xml"
     },
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_doctor_bg.xml.flat",
@@ -166,10 +158,6 @@
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_ic_tooth.xml.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\ic_tooth.xml"
-    },
-    {
-        "merged": "com.bookmydoc.app-merged_res-53:/layout_activity_user_profile.xml.flat",
-        "source": "com.bookmydoc.app-main-55:/layout/activity_user_profile.xml"
     },
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_ic_circle_white_8dp.xml.flat",
@@ -372,6 +360,10 @@
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\toolbar_bg.xml"
     },
     {
+        "merged": "com.bookmydoc.app-merged_res-53:/layout_activity_settings.xml.flat",
+        "source": "com.bookmydoc.app-main-55:/layout/activity_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable-mdpi_ic_star.png.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-pngs-48:\\drawable-mdpi\\ic_star.png"
     },
@@ -404,12 +396,12 @@
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\layout_activity_doctor_dashboard.xml.flat",
-        "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\layout\\activity_doctor_dashboard.xml"
-    },
-    {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\layout_activity_docotr_detail.xml.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\layout\\activity_docotr_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\layout_activity_doctor_dashboard.xml.flat",
+        "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\layout\\activity_doctor_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_search_bg_shedow_small.png.flat",

@@ -218,7 +218,7 @@ class UserProfileActivity : AppCompatActivity(), View.OnClickListener {
                 Log.e("Error while uploading", "Error while uploading image to db", e)
             }
     }
-
+// code to update user profile details
 
     private fun updateUserProfileDetails() {
 

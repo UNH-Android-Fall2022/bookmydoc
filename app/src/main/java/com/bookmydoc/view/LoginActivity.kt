@@ -162,7 +162,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
             }
     }
-
+// validating login credentials
     private fun validateLoginDetails(): Boolean {
         return when {
             TextUtils.isEmpty(binding.mEdtEmail.text.toString().trim { it <= ' ' }) -> {

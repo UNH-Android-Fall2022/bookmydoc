@@ -39,6 +39,7 @@ class MyBookingActivity : AppCompatActivity(), View.OnClickListener {
         getMyBookingList(this, mUserDetails.id)
 
     }
+    // get booking list from firebase
     fun getMyBookingList(activity: MyBookingActivity, uer_id: String) {
         activity.showProgressDialog("")
         mFireStore.collection(Constants.BOOKING)
