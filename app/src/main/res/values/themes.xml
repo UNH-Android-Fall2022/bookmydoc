@@ -11,7 +11,7 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" >#2A7CFF</item>
-        <!-- Customize your theme here. -->
+
     </style>
 
 
@@ -27,7 +27,7 @@
 
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/white</item>
-        <!-- Customize your theme here. -->
+
     </style>
 
     <style name="Theme.Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
@@ -41,8 +41,8 @@
         <item name="colorOnSecondary">@color/black</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">#2A7CFF</item>
-        <!-- Customize your theme here. -->
+       <!-- <item name="android:statusBarColor">#2A7CFF</item> -->
+        <item name="android:statusBarColor">#00FF00</item>
     </style>
 
 

@@ -20,6 +20,10 @@
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\layout\\activity_register.xml"
     },
     {
+        "merged": "com.bookmydoc.app-mergeDebugResources-52:/layout/activity_dashboard.xml",
+        "source": "com.bookmydoc.app-main-55:/layout/activity_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-mergeDebugResources-52:\\layout\\activity_login.xml",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\layout\\activity_login.xml"
     },
@@ -58,10 +62,6 @@
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-mergeDebugResources-52:\\layout\\view_category.xml",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\layout\\view_category.xml"
-    },
-    {
-        "merged": "com.bookmydoc.app-mergeDebugResources-52:/layout/activity_settings.xml",
-        "source": "com.bookmydoc.app-main-55:/layout/activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-mergeDebugResources-52:\\layout\\activity_docotr_detail.xml",

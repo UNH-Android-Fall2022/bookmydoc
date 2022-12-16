@@ -1,26 +1,21 @@
 package com.bookmydoc.view
 
-import android.Manifest
-import android.app.Activity
+
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
-import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.TextView
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import androidx.databinding.DataBindingUtil
 import coil.load
 import com.bookmydoc.Constants
 import com.bookmydoc.R
-import com.bookmydoc.databinding.ActivityCategoryBinding
 import com.bookmydoc.databinding.ActivitySettingsBinding
 import com.bookmydoc.model.User
 import com.google.android.material.snackbar.Snackbar
@@ -61,6 +56,8 @@ class SettingsActivity : AppCompatActivity(), View.OnClickListener {
         }
         snackBar.show()
     }
+
+//https://developer.android.com/reference/android/app/ProgressDialog
 
     fun showProgressDialog(message: String) {
         mProgressDialog = Dialog(this)
@@ -153,6 +150,8 @@ class SettingsActivity : AppCompatActivity(), View.OnClickListener {
         getUserDetails()
         super.onResume()
     }
+
+//https://developer.android.com/reference/android/app/AlertDialog
 
     private fun alertDialogLogout() {
         val builder = AlertDialog.Builder(this)

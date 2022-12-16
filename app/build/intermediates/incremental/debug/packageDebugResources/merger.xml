@@ -438,7 +438,7 @@
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor">#2A7CFF</item>
-        
+
     </style><style name="Theme.White" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
@@ -451,7 +451,7 @@
 
         
         <item name="android:statusBarColor">@color/white</item>
-        
+
     </style><style name="Theme.Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
@@ -463,8 +463,8 @@
         <item name="colorOnSecondary">@color/black</item>
 
         
-        <item name="android:statusBarColor">#2A7CFF</item>
-        
+       
+        <item name="android:statusBarColor">#00FF00</item>
     </style><style name="error_appearance" parent="@android:style/TextAppearance">
         <item name="android:textColor">#F44336</item>
         <item name="android:textSize">10sp</item>

@@ -72,6 +72,10 @@
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\urologist.png"
     },
     {
+        "merged": "com.bookmydoc.app-merged_res-53:/layout_activity_dashboard.xml.flat",
+        "source": "com.bookmydoc.app-main-55:/layout/activity_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\xml\\backup_rules.xml"
     },
@@ -358,10 +362,6 @@
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable_toolbar_bg.xml.flat",
         "source": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-main-55:\\drawable\\toolbar_bg.xml"
-    },
-    {
-        "merged": "com.bookmydoc.app-merged_res-53:/layout_activity_settings.xml.flat",
-        "source": "com.bookmydoc.app-main-55:/layout/activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\home\\.gradle\\daemon\\7.3.3\\com.bookmydoc.app-merged_res-53:\\drawable-mdpi_ic_star.png.flat",

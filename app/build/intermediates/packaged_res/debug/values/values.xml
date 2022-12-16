@@ -1192,8 +1192,8 @@
         <item name="colorOnSecondary">@color/black</item>
 
         
-        <item name="android:statusBarColor">#2A7CFF</item>
-        
+       
+        <item name="android:statusBarColor">#00FF00</item>
     </style>
     <style name="Theme.BookMyDoc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
@@ -1206,7 +1206,7 @@
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor">#2A7CFF</item>
-        
+
     </style>
     <style name="Theme.White" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
@@ -1220,7 +1220,7 @@
 
         
         <item name="android:statusBarColor">@color/white</item>
-        
+
     </style>
     <style name="customRoundedImageView" parent="">
         <item name="cornerFamily">rounded</item>

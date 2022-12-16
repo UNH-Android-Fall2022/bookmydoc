@@ -98,6 +98,7 @@
                     android:layout_width="@dimen/_80sdp"
                     android:layout_height="@dimen/_40sdp"
                     android:paddingStart="@dimen/_10sdp"
+                    android:background="@drawable/rounded_gray_border"
                     android:foreground="@drawable/bg_edittextbox"
                     android:entries="@array/CountryCodes"/>
 
